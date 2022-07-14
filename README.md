@@ -4,13 +4,13 @@
 
 # Deploying model
 
-
+In a bash terminal inside the proyect folder 
 ```{bash}
 cd production
 docker run -it $(docker build -q .)
 ```
 
-Make some queries: 
+Example query: 
 
 ```{bash}
 curl http://172.17.0.2:5000/getPrediction -H "Content-Type: application/json" -d '{
@@ -29,8 +29,12 @@ curl http://172.17.0.2:5000/getPrediction -H "Content-Type: application/json" -d
     "hours-per-week": [40],
     "native-country":["United-States"]
 }'
-
 ```
+
+```{bash}
+{"data":[0]}
+```
+
 
 ## Interesting sources 
 
