@@ -1,6 +1,17 @@
 # adult-classification
 
-### Interesting sources 
+
+
+# Deploying model
+
+```{bash}
+cd production
+docker build .
+
+
+```
+
+## Interesting sources 
 
 - https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/
 - https://scikit-learn.org/stable/tutorial/statistical_inference/putting_together.html
