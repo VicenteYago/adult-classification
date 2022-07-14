@@ -2,6 +2,7 @@
 
 ### Interesting sources 
 
+- https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/
 - https://scikit-learn.org/stable/tutorial/statistical_inference/putting_together.html
 - https://machinelearningmastery.com/hyperparameters-for-classification-machine-learning-algorithms/
 - https://www.kaggle.com/code/namanmanchanda/heart-attack-eda-prediction-90-accuracy
