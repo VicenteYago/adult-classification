@@ -36,7 +36,7 @@ curl http://172.17.0.2:5000/getPrediction -H "Content-Type: application/json" -d
 ```
 
 
-## Interesting sources 
+## Sources 
 
 - https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/
 - https://scikit-learn.org/stable/tutorial/statistical_inference/putting_together.html
