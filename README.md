@@ -4,9 +4,31 @@
 
 # Deploying model
 
+
 ```{bash}
 cd production
 docker run -it $(docker build -q .)
+```
+
+Make some queries: 
+
+```{r}
+curl http://localhost:5000/getPrediction -H "Content-Type: application/json" -d '{
+    "age": 39,
+    "workclass": "State-gov",
+    "fnlwgt": 77516,
+    "education": "Bachelors",
+    "education-num": 13,
+    "marital-status": "Never-married",
+    "occupation": "Adm-clerical",
+    "relationship": "Not-in-family",
+    "race": "White",
+    "sex": "Male",
+    "capital-gain": 2174,
+    "capital-loss": 0,
+    "hours-per-week": 40,
+    "native-country":"United-States"
+}'
 
 ```
 
