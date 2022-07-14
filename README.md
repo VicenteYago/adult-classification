@@ -6,8 +6,7 @@
 
 ```{bash}
 cd production
-docker build .
-
+docker run -it $(docker build -q .)
 
 ```
 
