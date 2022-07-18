@@ -9,7 +9,7 @@ nbviewer links
 
 # Deploying model
 
-In a bash terminal inside the proyect folder 
+In a bash terminal inside the proyect folder, the following command will [compile and run](https://stackoverflow.com/questions/45141402/build-and-run-dockerfile-with-one-command) the docker image hosting the REST API server, listening for new examples queries to infer: 
 ```{bash}
 cd production
 docker run -it $(docker build -q .)
