@@ -1,6 +1,11 @@
 # adult-classification
 
+## Summary
 
+## Notebooks
+nbviewer links
+- [EDA](https://nbviewer.org/github/VicenteYago/adult-classification/blob/main/1%20-%20EDA.ipynb)
+- [Feature engineering & modelling](https://nbviewer.org/github/VicenteYago/adult-classification/blob/main/2%20-%20Feature%20engineering%20%26%20modelling.ipynb)
 
 # Deploying model
 
