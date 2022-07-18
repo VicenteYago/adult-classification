@@ -6,7 +6,7 @@
 *  The [Adult-Income dataset](https://archive.ics.uci.edu/ml/datasets/adult) relates salaries with an array of socioeconomic indicators in the U.S.
 *  A **logistic** and **gradient boosting** models has been tested in addition with the algorithm **SMOTE** for increasing the **recall** in the positive class.
 * **AUC-ROC of 0.85** in a 10-fold cross-validation with the full dataset (30k+ obs)
-* The final model is available through a **dockerised Flask API REST** endopoint.
+* The final model is available through a **dockerised Flask API REST** endpoint.
 
 ## Notebooks
 nbviewer links
