@@ -8,11 +8,6 @@
 * **AUC-ROC of 0.85** in a 10-fold cross-validation with the full dataset (30k+ obs)
 * The final model is available through a **dockerised Flask API REST** endpoint.
 
-## Notebooks
-nbviewer links
-- [EDA](https://nbviewer.org/github/VicenteYago/adult-classification/blob/main/1%20-%20EDA.ipynb)
-- [Feature engineering & modelling](https://nbviewer.org/github/VicenteYago/adult-classification/blob/main/2%20-%20Feature%20engineering%20%26%20modelling.ipynb)
-
 ## Deploying model
 
 In a bash terminal inside the proyect folder, the following command will [compile and run](https://stackoverflow.com/questions/45141402/build-and-run-dockerfile-with-one-command) the docker image hosting the REST API server, listening for new examples queries to infer: 
